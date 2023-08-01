@@ -12,7 +12,7 @@
     "start": "node ./build/index.js",
     "format": "prettier --write 'src/**/*.(js|jsx|ts|tsx|json|css)'",
     "start:local": "nodemon -w ./src ./src/index.ts",
-    "api:diff": "optic diff openapi.yml --last-change"
+    "api:diff": "optic diff openapi.yml main"
   },
   "dependencies": {
     "@fastify/swagger": "^8.3.1",

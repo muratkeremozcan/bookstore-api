@@ -11,6 +11,6 @@ har-capture
 .pnp.*
 
 # generated openapi spec
-openapi.yml
+# openapi.yml
 
 tsconfig.tsbuildinfo
